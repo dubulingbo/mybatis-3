@@ -22,7 +22,7 @@ import javax.sql.DataSource;
  * @author Clinton Begin
  */
 public interface DataSourceFactory {
-
+//这是我修改的内容  2333
   void setProperties(Properties props);
 
   DataSource getDataSource();
